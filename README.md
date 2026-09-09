@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/4lfredoCalv0/4lfredoCalv0/blob/main/README.md">🇺🇸 English</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/4lfredoCalv0/4lfredoCalv0/blob/main/README.es.md">🇨🇴 Español</a>
+</p>
+
 # Alfredo Calvo
 
 **AI & Automation Engineer**

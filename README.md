@@ -1,5 +1,7 @@
 # Alfredo Calvo
 
+**AI & Automation Engineer**
+
 I build AI-powered automation systems for businesses — from event-driven backend
 infrastructure to the interfaces people actually use.
 
@@ -27,9 +29,9 @@ it.
 
 The site runs two separate conversational assistants: a service assistant that
 answers questions about Emerald's services, and a booking assistant that turns a
-conversation into a booking — writing the lead to Notion and sending the
-notification without leaving the chat. Both stream through the Vercel AI SDK,
-on Llama 3.3 70B via Groq where low latency matters.
+conversation into a completed booking — writing the lead to Notion and
+triggering the notification without leaving the chat. Both stream through the
+Vercel AI SDK, using Llama 3.3 70B via Groq where low latency matters.
 
 The blog uses MDX instead of a CMS, and form submissions go directly into
 Notion. Fewer systems to maintain, fewer things that can break.
@@ -46,7 +48,7 @@ has to happen unattended. Nothing reaches long-term memory without human review.
 
 ### Automation infrastructure
 
-`n8n` `Shopify` `Airtable` `Gmail API` `Pub/Sub` `Cloud Functions`
+`n8n` `Shopify` `Airtable` `Gmail API` `Pub/Sub` `Google Cloud Functions`
 
 Production workflows for an e-commerce and manufacturing operation. Airtable is
 the operational source of truth, n8n handles orchestration, and Google Cloud
@@ -84,8 +86,8 @@ to run indefinitely. The patterns I reach for:
   a log.
 * **Observability** — the system should make failures obvious.
 
-Most of what I build is the machinery that notices when something didn't
-happen.
+**Most of what I build is the machinery that notices when something didn't
+happen.**
 
 ## Stack
 
@@ -107,9 +109,8 @@ actually operate.
 
 ## About this profile
 
-Most of my interesting work doesn't fit neatly into a public repository —
-production automation lives inside private business infrastructure. So this
-profile is intentionally smaller than the amount of work behind it. The
-repositories here are the parts I'm able to show.
+A lot of the work behind this profile runs inside private business
+infrastructure, so not everything can be open-sourced. The repositories here are
+the parts I'm able to show.
 
 [calvo.alfredo2003@gmail.com](mailto:calvo.alfredo2003@gmail.com)

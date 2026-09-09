@@ -4,17 +4,30 @@ I build the automation layer that a small company runs on — the part where a
 Shopify order, an email and a spreadsheet row have to agree with each other at
 3am without anyone watching.
 
-Most of my work lives in n8n, Airtable and Google Cloud rather than in a
-codebase, so this profile is thin on purpose. What follows is what I actually
-spend my time on.
+Most of that work lives in n8n, Airtable and Google Cloud rather than in a
+codebase, so this profile is lighter than the hours behind it. The one thing
+you can click through is Emerald.
 
-## What I work on
+## Emerald
 
-Operations automation for an e-commerce and manufacturing business: dozens of
-workflows connecting Shopify, Airtable, Gmail and Google Cloud, with Airtable
-as the single source of truth and n8n as a stateless orchestration layer.
+An AI-first agency I'm building in Barranquilla, Colombia — and the site that
+sells it, which I designed and wrote.
 
-Some of it:
+[**emerald**](https://github.com/4lfredoCalv0/emerald) ·
+[live](https://emerald-two-mu.vercel.app)
+
+Next.js 14 with two conversational assistants on separate endpoints: one
+answers questions about services anywhere on the site, the other handles
+booking. Both stream through the Vercel AI SDK on Llama 3.3 70B via Groq,
+picked for latency — a chat widget that takes three seconds to start answering
+gets closed. The blog is MDX files with no CMS behind it, and form submissions
+land in Notion, so there is no admin panel to maintain.
+
+## Operations automation
+
+For an e-commerce and manufacturing business: dozens of workflows connecting
+Shopify, Airtable, Gmail and Google Cloud, with Airtable as the single source
+of truth and n8n as a stateless orchestration layer.
 
 - **Replaced a paid Gmail SaaS with two Cloud Functions.** Gmail push
   notifications over Pub/Sub label shared inboxes the instant mail arrives,
@@ -35,7 +48,7 @@ Some of it:
 ## What I'm actually good at
 
 Making no-code tools behave like production systems. The interesting problems
-in this stack are never the happy path — they're idempotency when a webhook
+in that stack are never the happy path — they're idempotency when a webhook
 fires twice, reconciliation when it never fires at all, and making failures
 loud instead of silent.
 
@@ -46,5 +59,8 @@ something didn't happen.
 
 ## Stack
 
-n8n · Airtable · Shopify (REST + GraphQL) · Google Cloud Functions · Pub/Sub ·
-Gmail API · Node.js · Next.js · Python
+**Building:** Next.js · React · TypeScript · Tailwind · Framer Motion ·
+Vercel AI SDK
+**Automating:** n8n · Airtable · Shopify (REST + GraphQL) · Google Cloud
+Functions · Pub/Sub · Gmail API
+**Also:** Node.js · Python · Notion API

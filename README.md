@@ -14,7 +14,7 @@ An AI-first agency I'm building in Barranquilla, Colombia — and the site that
 sells it, which I designed and wrote.
 
 [**emerald**](https://github.com/4lfredoCalv0/emerald) ·
-[live](https://emerald-two-mu.vercel.app)
+[live](https://emerald-co.vercel.app)
 
 Next.js 14 with two conversational assistants on separate endpoints: one
 answers questions about services anywhere on the site, the other handles

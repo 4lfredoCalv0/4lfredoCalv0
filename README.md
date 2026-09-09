@@ -115,3 +115,5 @@ Most of my interesting work doesn't fit neatly into a public repository —
 production automation lives inside private business infrastructure. So this
 profile is intentionally smaller than the amount of work behind it. The
 repositories here are the parts I'm able to show.
+
+Happy to talk about any of it: **calvo.alfredo2003@gmail.com**
